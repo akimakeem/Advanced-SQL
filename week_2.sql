@@ -1,3 +1,6 @@
+/*
+Query to identify the impacted customers and their attributes in order to compose an offer to these customers to make things right. 
+*/
 with active_customer_preference as 
 (
  select 
