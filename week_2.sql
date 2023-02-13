@@ -47,7 +47,7 @@ where
     or
     (customer_state = 'CA' and (trim(city_name) ilike '%oakland%' or trim(city_name) ilike '%pleasant hill%'))
     or
-    (customer_state = 'TX' and (trim(city_name) ilike '%arlington%') or trim(city_name) ilike '%brownsville%')
+    (customer_state = 'TX' and (trim(city_name) ilike '%arlington%' or trim(city_name) ilike '%brownsville%'))
 )
 select 
   customer_name,
