@@ -12,14 +12,10 @@ event_details: Details about the event in JSON — what action was performed by 
 Once we expand the beta version, we expect the website_activity table to grow very quickly. While it is still fairly small, we need to develop a query to measure the impact of the changes to our search algorithm. Please create a query and review the query profile to ensure that the query will be efficient once the activity increases.
 
 We want to create a daily report to track:
-
-Total unique sessions
-
-The average length of sessions in seconds
-
-The average number of searches completed before displaying a recipe 
-
-The ID of the recipe that was most viewed 
+- Total unique sessions
+- The average length of sessions in seconds
+- The average number of searches completed before displaying a recipe 
+- The ID of the recipe that was most viewed 
 
 In addition to your query, please submit a short description of what you determined from the query profile and how you structured your query to plan for a higher volume of events once the website traffic increases.
 */
