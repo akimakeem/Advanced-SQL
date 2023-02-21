@@ -19,6 +19,8 @@ We want to create a daily report to track:
 
 In addition to your query, please submit a short description of what you determined from the query profile and how you structured your query to plan for a higher volume of events once the website traffic increases.
 */
+ALTER SESSION SET USE_CACHED_RESULT = FALSE;
+
 WITH events AS (
 
     SELECT
@@ -67,3 +69,4 @@ result AS (
 GROUP by 1
 )
 SELECT * FROM result order by 1
+/* The most and only expensive piece of the query above is the join statement */
