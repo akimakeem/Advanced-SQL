@@ -1,16 +1,10 @@
 /*  
 The Virtual Kitchen developers are making some changes to the search functionality on the website. After gathering customer feedback, they want to change the recipe suggestion algorithm in order to improve the customer experience.
-
 We have a beta version of the website available and have opened it for use by a small number of customers. Next week we plan to increase this number from 200 customers to 5,000. To ensure everything is ready for the test, we have implemented logging and are saving results to a table in Snowflake called vk_data.events.website_activity.
-
 The table contains: 
-
 event_id: A unique identifier for the user action on the website
-
 session_id: The identifier for the user session
-
 user_id: The identifier for the logged-in user
-
 event_timestamp: Time of the event
 
 event_details: Details about the event in JSON — what action was performed by the user?
